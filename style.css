@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+}
+
+.top {
+    height: 20px;
+    width: 1536px;
+}
+
+a {
+    color: #676767;
+}
+
+.wrapper {
+    padding: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.buttons li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.pencil_button {
+    background: #fae851;
+    border: 1px #fae851 solid;
+    border-radius: 8px;
+}
+
+.pencil {
+    vertical-align: middle;
+}
+
+.pencil_button2 {
+    background: #fae851;
+    border: 1px #fae851 solid;
+    border-radius: 8px;
+    margin-right: 170px;
+    width: 105.6px;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.fons {
+    left: 690px;
+    position: absolute;
+}
+
+.social {
+    padding: 15px 30px;
+}
+
+.social a:nth-child(1) {
+    position: absolute;
+    left: 708px;
+    top: 78px;
+}
+
+.social a:nth-child(2) {
+    position: absolute;
+    left: 764px;
+    top: 78px;
+}
+
+.social a:nth-child(3) {
+    position: absolute;
+    left: 817px;
+    top: 80px;
+}
+
+.social a {
+    display: block;
+    transition: all .5s ease;
+}
+
+.social li {
+    display: inline-block;
+    padding-left: 26px;
+}
+
+a.vk {
+    width: 14px;
+    height: 17px;
+    background-position: 0 0;
+    background: url(img/sprite.png);
+}
+
+.vk:hover {
+    background-position: 0px -16px;
+}
+
+a.ok {
+    width: 14px;
+    height: 17px;
+    background-position: 0 0;
+    background: url(img/sprite.png) no-repeat -21px 0px;
+}
+
+.ok:hover {
+    background-position: -21px -14px;
+}
+
+a.fb {
+    width: 14px;
+    height: 19px;
+    background-position: 0 0;
+    background: url(img/sprite.png) no-repeat -39px 0px;
+}
+
+.fb:hover {
+    background-position: -39px -18px;
+}
+
+a.sk {
+    width: 18px;
+    left: 935px;
+    top: 81px;
+    height: 18px;
+    position: absolute;
+    background-position: 24px 10px;
+    background: url(img/sprite.png) no-repeat -52px 1px;
+}
+
+.sk:hover {
+    background-position: -51px -17px;
+}
+
+.messenger_a a {
+    transition: all .5s ease;
+}
+
+.messenger_a a:hover {
+    color: #66b7ef;
+}
+
+.messenger_a a:nth-child(1) {
+    position: absolute;
+    left: 958px;
+    top: 81px;
+}
+
+.messenger_a a:nth-child(2) {
+    position: absolute;
+    top: 81px;
+    left: 1053px;
+}
+
+.messenger_a a:nth-child(3) {
+    position: absolute;
+    top: 81px;
+    left: 1178px;
+}
+
+.border {
+    margin: 0;
+}
+
+.border {
+    border-bottom: solid 1px #b2def8;
+    position: absolute;
+    top: 106px;
+    width: 1479px;
+}
+
+.messenger_a a:hover {
+    text-decoration: none;
+}
+
+a.ia {
+    width: 19px;
+    left: 1029px;
+    top: 81px;
+    height: 18px;
+    position: absolute;
+    background-position: 0 0;
+    background: url(img/sprite.png) no-repeat -68px 1px;
+}
+
+.ia:hover {
+    background-position: -68px -17px;
+}
+
+a.mail {
+    width: 22px;
+    left: 1148px;
+    top: 81px;
+    height: 18px;
+    position: absolute;
+    background-position: 0 0;
+    background: url(img/sprite.png) no-repeat -84px -1px;
+}
+.mail:hover {
+    background-position: -84px -15px;
+}
+
+.middle-line a:hover {
+    color: #0087e4;
+}
+
+.login p{
+    color: #676767;
+}
+
+.tel{
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    padding-bottom: 4px;
+}
+
+.logo img {
+    position: absolute;
+    top: 195px;
+    left: 660px;
+}
+
+.logo p:nth-child(2) {
+    position: absolute;
+    top: 211px;
+    left: 716px;
+    color: #676767;
+}
+
+.maika {
+    width: 310px;
+    left: 664px;
+    top: 170px;
+    height: 32px;
+    position: absolute;
+    background-position: 0 0;
+    background: url(img/sprite.png) no-repeat 4px -90px;
+}
+
+.maika:hover {
+    cursor: default;
+    background-position: 4px -124px;
+}
+
+.cart p:nth-child(1) {
+    position: absolute;
+    top: 163px;
+    left: 1111px;
+}
+
+.cart p:nth-child(3) {
+    position: absolute;
+    top: 193px;
+    left: 1158px;
+}
+
+.pararam {
+    transition: all .5s ease;
+    width: 29px;
+    left: 1071px;
+    top: 172px;
+    height: 26px;
+    position: absolute;
+    background-position: 0 0;
+    background: url(img/sprite.png) no-repeat -34px -32px;
+}
+
+.pararam:hover {
+    cursor: default;
+    background-position: -34px -60px;
+}
+
+.pampararam {
+    transition: all .5s ease;
+    width: 29px;
+    left: 1119px;
+    top: 205px;
+    height: 26px;
+    position: absolute;
+    background-position: 0 0;
+    background: url(img/sprite.png) no-repeat 6px -32px;
+}
+
+.pampararam:hover {
+    cursor: default;
+    background-position: 6px -53px;
+}
+
+.menus a {
+    text-decoration: none;
+}
+
+
+.main-menu {
+    transition: all .5s ease;
+    display: flex;
+    position: absolute;
+    top: 240px;
+    left: 400px;
+}
+
+
+.main-menu li {
+    padding-right: 10px;
+}
+
+.filtres {
+    display: flex;
+    position: absolute;
+    top: 280px;
+    left: 301px;
+}
+
+.filtres li {
+    padding-right: 10px;
+}
