@@ -7,6 +7,19 @@ body {
     width: 1536px;
 }
 
+.border-menu {
+    border-bottom: 3px #fbeca7 solid;
+    width: 1496px;
+    position: absolute;
+    top: 311px;
+}
+
+.happy_new_year {
+    position: absolute;
+    top: 330px;
+    left: -366px;
+}
+
 a {
     color: #676767;
 }
@@ -64,13 +77,13 @@ li {
     padding: 15px 30px;
 }
 
-.social a:nth-child(1) {
+.social a:nth-child(1):not(.left) {
     position: absolute;
     left: 708px;
     top: 78px;
 }
 
-.social a:nth-child(2) {
+.social a:nth-child(2):not(.right) {
     position: absolute;
     left: 764px;
     top: 78px;
@@ -203,6 +216,7 @@ a.mail {
     background-position: 0 0;
     background: url(img/sprite.png) no-repeat -84px -1px;
 }
+
 .mail:hover {
     background-position: -84px -15px;
 }
@@ -211,11 +225,20 @@ a.mail {
     color: #0087e4;
 }
 
-.login p{
+.main-menu a:hover {
+    border-bottom: 1px solid;
+}
+
+.filtres a:hover {
+    padding-bottom: 14px;
+    border-bottom: 3px solid;
+}
+
+.login p {
     color: #676767;
 }
 
-.tel{
+.tel {
     text-decoration: none;
     border-bottom: 1px dotted;
     padding-bottom: 4px;
@@ -320,4 +343,119 @@ a.mail {
 
 .filtres li {
     padding-right: 10px;
+}
+
+.div {
+    left: 311px;
+    z-index: 3;
+    background: #fff;
+    width: 701px;
+    height: 310px;
+    border: 7px #f3cf23 solid;
+    position: absolute;
+    top: 351px;
+}
+
+.div p:first-child {
+    position: absolute;
+    top: 18px;
+    left: 28px;
+    color: #0193e9;
+    font: 38px arial;
+
+}
+
+.div p:nth-child(2) {
+    position: absolute;
+    left: 28px;
+    top: 88px;
+    color: #676767;
+}
+
+.peoples {
+    position: absolute;
+    left: 285px;
+    height: 100%;
+}
+
+.button {
+    position: absolute;
+    top: 156px;
+}
+
+.button2 {
+    position: absolute;
+    top: 156px;
+    left: 665px;
+}
+
+.left {
+    width: 15px;
+    left: 9px;
+    top: 150px;
+    height: 36px;
+    position: absolute;
+    background: url(img/sprite.png) no-repeat -104px 8px;
+}
+
+.left:hover {
+    background-position: -103px -28px;
+}
+
+.right {
+    width: 15px;
+    left: 678px;
+    top: 150px;
+    height: 36px;
+    position: absolute;
+    background: url(img/sprite.png) no-repeat -122px 8px;
+}
+
+.right:hover {
+    background-position: -123px -28px;
+}
+
+.div h2 {
+    color: #676767;
+    position: absolute;
+    left: 46px;
+    top: 180px;
+}
+
+.erarka {
+    width: 21px;
+    left: 21px;
+    top: 197px;
+    height: 30px;
+    position: absolute;
+    background: url(img/sprite.png) no-repeat -159px 1px;
+}
+
+.erarka:hover {
+    background-position: -161px -31px;
+}
+
+.get{
+    position: absolute;
+    top: 260px;
+    left: 30px;
+}
+
+.button3{
+    position: absolute;
+    top: 254px;
+    left: 190px;
+}
+
+.minus-10-vidstochiv {
+    width: 30px;
+    left: 194px;
+    top: 258px;
+    height: 29px;
+    position: absolute;
+    background: url(img/sprite.png) no-repeat -71px -32px;
+}
+
+.minus-10-vidstochiv:hover {
+    background-position: -72px -53px;
 }
