@@ -350,7 +350,7 @@ a.mail {
     z-index: 3;
     background: #fff;
     width: 701px;
-    height: 310px;
+    height: 354px;
     border: 7px #f3cf23 solid;
     position: absolute;
     top: 351px;
@@ -374,7 +374,8 @@ a.mail {
 
 .peoples {
     position: absolute;
-    left: 285px;
+    left: 268px;
+    width: 434px;
     height: 100%;
 }
 
@@ -422,6 +423,19 @@ a.mail {
     top: 180px;
 }
 
+.bottom-bottom {
+    bottom: 327px;
+    position: absolute;
+    width: 330px;
+}
+
+
+.bottom-bottom2 {
+    bottom: 313px;
+    position: absolute;
+    width: 330px;
+}
+
 .erarka {
     width: 21px;
     left: 21px;
@@ -435,13 +449,13 @@ a.mail {
     background-position: -161px -31px;
 }
 
-.get{
+.get {
     position: absolute;
     top: 260px;
     left: 30px;
 }
 
-.button3{
+.button3 {
     position: absolute;
     top: 254px;
     left: 190px;
@@ -458,4 +472,80 @@ a.mail {
 
 .minus-10-vidstochiv:hover {
     background-position: -72px -53px;
+}
+
+.futbolki p {
+    color: #676767;
+    position: absolute;
+    left: 40px;
+    top: 60px;
+}
+
+.div2 {
+    padding: 11px;
+    background: #fff;
+    position: absolute;
+    border: 3px #0193e9 solid;
+    left: 1032px;
+    top: 351px;
+    text-decoration: none;
+    width: 223px;
+    height: 89px;
+}
+
+.futbolka {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+
+.erarka2 {
+    width: 21px;
+    left: 15px;
+    top: 62px;
+    height: 30px;
+    position: absolute;
+    background: url(img/sprite.png) no-repeat -159px 1px;
+}
+
+.erarka2:hover {
+    background-position: -161px -31px;
+}
+
+
+.div3 {
+    padding: 11px;
+    background: #fff;
+    position: absolute;
+    border: 3px #0193e9 solid;
+    left: 1032px;
+    top: 475px;
+    text-decoration: none;
+    width: 223px;
+    height: 89px;
+}
+
+.div4 {
+    padding: 11px;
+    background: #fff;
+    position: absolute;
+    border: 3px #0193e9 solid;
+    left: 1032px;
+    top: 599px;
+    text-decoration: none;
+    width: 223px;
+    height: 89px;
+}
+
+.h2{
+    position: absolute;
+    top: 740px;
+    left: 440px;
+    color: #0193e9;
+}
+
+.sots-seti{
+    position: absolute;
+    top: 822px;
+    left: 560px;
 }
