@@ -2,140 +2,97 @@ body {
     margin: 0;
 }
 
-.top {
-    height: 20px;
-    width: 1536px;
-}
-
-.border-menu {
-    border-bottom: 3px #fbeca7 solid;
-    width: 1496px;
-    position: absolute;
-    top: 311px;
-}
-
-.happy_new_year {
-    position: absolute;
-    top: 330px;
-    left: -366px;
-}
-
-a {
-    color: #676767;
-}
-
 .wrapper {
-    padding: 20px;
     max-width: 960px;
     margin: 0 auto;
 }
 
-li {
-    list-style-type: none;
+.flex-beetwen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.buttons li {
-    display: inline-block;
-    padding: 10px;
+header ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.top-line {
+    position: relative;
+    padding: 13px 0 10px;
+    border-top: 6px solid #f8e27b;
+}
+
+.top-line:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -8px;
+    width: 16px;
+    height: 16px;
+    background-color: #f8e27b;
+    transform: rotate(45deg);
 }
 
 .buttons {
     display: flex;
 }
 
-.pencil_button {
-    background: #fae851;
-    border: 1px #fae851 solid;
-    border-radius: 8px;
+.buttons button {
+    display: flex;
+    margin-right: 8px;
+    padding: 4px 15px;
+    border: none;
+    border-radius: 13px;
+    background-image: linear-gradient(0deg, #f6dd30 0%, #fbf071 100%);
 }
 
-.pencil {
-    vertical-align: middle;
+.buttons button img {
+    margin-right: 8px;
 }
 
-.pencil_button2 {
-    background: #fae851;
-    border: 1px #fae851 solid;
-    border-radius: 8px;
-    margin-right: 170px;
-    width: 105.6px;
-}
-
-.clear:after {
-    content: "";
-    display: block;
-    clear: both;
+a {
+    color: #676767;
 }
 
 
-.fons {
-    left: 690px;
-    position: absolute;
-}
 
-.social {
-    padding: 15px 30px;
-}
-
-.social a:nth-child(1):not(.left) {
-    position: absolute;
-    left: 708px;
-    top: 78px;
-}
-
-.social a:nth-child(2):not(.right) {
-    position: absolute;
-    left: 764px;
-    top: 78px;
-}
-
-.social a:nth-child(3) {
-    position: absolute;
-    left: 817px;
-    top: 80px;
-}
 
 .social a {
-    display: block;
     transition: all .5s ease;
-}
-
-.social li {
-    display: inline-block;
-    padding-left: 26px;
-}
-
-a.vk {
-    width: 14px;
-    height: 17px;
-    background-position: 0 0;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+    display: block;
     background: url(img/sprite.png);
 }
 
-.vk:hover {
-    background-position: 0px -16px;
+
+a.vk {
+    background-position: 0 0;
+}
+
+a.vk:hover {
+    background-position: 0 -16px;
 }
 
 a.ok {
-    width: 14px;
-    height: 17px;
-    background-position: 0 0;
-    background: url(img/sprite.png) no-repeat -21px 0px;
+    background-position: -20px 0;
 }
 
-.ok:hover {
-    background-position: -21px -14px;
+a.ok:hover {
+    background-position: -20px -17px;
 }
 
 a.fb {
-    width: 14px;
-    height: 19px;
-    background-position: 0 0;
-    background: url(img/sprite.png) no-repeat -39px 0px;
+    background-position: -34px 0;
 }
 
-.fb:hover {
-    background-position: -39px -18px;
+a.fb:hover {
+    background-position: -34px -15px;
 }
 
 a.sk {
@@ -152,46 +109,7 @@ a.sk {
     background-position: -51px -17px;
 }
 
-.messenger_a a {
-    transition: all .5s ease;
-}
 
-.messenger_a a:hover {
-    color: #66b7ef;
-}
-
-.messenger_a a:nth-child(1) {
-    position: absolute;
-    left: 958px;
-    top: 81px;
-}
-
-.messenger_a a:nth-child(2) {
-    position: absolute;
-    top: 81px;
-    left: 1053px;
-}
-
-.messenger_a a:nth-child(3) {
-    position: absolute;
-    top: 81px;
-    left: 1178px;
-}
-
-.border {
-    margin: 0;
-}
-
-.border {
-    border-bottom: solid 1px #b2def8;
-    position: absolute;
-    top: 106px;
-    width: 1479px;
-}
-
-.messenger_a a:hover {
-    text-decoration: none;
-}
 
 a.ia {
     width: 19px;
@@ -229,92 +147,14 @@ a.mail {
     border-bottom: 1px solid;
 }
 
-.filtres a:hover {
-    padding-bottom: 14px;
-    border-bottom: 3px solid;
+.kryg {
+    background: #fff;
+    border: #0193e9 1px solid;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
 }
 
-.login p {
-    color: #676767;
-}
-
-.tel {
-    text-decoration: none;
-    border-bottom: 1px dotted;
-    padding-bottom: 4px;
-}
-
-.logo img {
-    position: absolute;
-    top: 195px;
-    left: 660px;
-}
-
-.logo p:nth-child(2) {
-    position: absolute;
-    top: 211px;
-    left: 716px;
-    color: #676767;
-}
-
-.maika {
-    width: 310px;
-    left: 664px;
-    top: 170px;
-    height: 32px;
-    position: absolute;
-    background-position: 0 0;
-    background: url(img/sprite.png) no-repeat 4px -90px;
-}
-
-.maika:hover {
-    cursor: default;
-    background-position: 4px -124px;
-}
-
-.cart p:nth-child(1) {
-    position: absolute;
-    top: 163px;
-    left: 1111px;
-}
-
-.cart p:nth-child(3) {
-    position: absolute;
-    top: 193px;
-    left: 1158px;
-}
-
-.pararam {
-    transition: all .5s ease;
-    width: 29px;
-    left: 1071px;
-    top: 172px;
-    height: 26px;
-    position: absolute;
-    background-position: 0 0;
-    background: url(img/sprite.png) no-repeat -34px -32px;
-}
-
-.pararam:hover {
-    cursor: default;
-    background-position: -34px -60px;
-}
-
-.pampararam {
-    transition: all .5s ease;
-    width: 29px;
-    left: 1119px;
-    top: 205px;
-    height: 26px;
-    position: absolute;
-    background-position: 0 0;
-    background: url(img/sprite.png) no-repeat 6px -32px;
-}
-
-.pampararam:hover {
-    cursor: default;
-    background-position: 6px -53px;
-}
 
 .menus a {
     text-decoration: none;
@@ -324,9 +164,6 @@ a.mail {
 .main-menu {
     transition: all .5s ease;
     display: flex;
-    position: absolute;
-    top: 240px;
-    left: 400px;
 }
 
 
@@ -336,59 +173,43 @@ a.mail {
 
 .filtres {
     display: flex;
-    position: absolute;
-    top: 280px;
-    left: 301px;
 }
 
 .filtres li {
     padding-right: 10px;
 }
 
+.class {
+    width: 1519px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
 .div {
-    left: 311px;
-    z-index: 3;
+    justify-content: space-between;
     background: #fff;
+    position: relative;
     width: 701px;
     height: 354px;
     border: 7px #f3cf23 solid;
-    position: absolute;
-    top: 351px;
 }
 
-.div p:first-child {
-    position: absolute;
-    top: 18px;
-    left: 28px;
-    color: #0193e9;
-    font: 38px arial;
 
+.clear {
+    clear: both;
 }
 
-.div p:nth-child(2) {
-    position: absolute;
-    left: 28px;
-    top: 88px;
-    color: #676767;
-}
 
 .peoples {
-    position: absolute;
-    left: 268px;
-    width: 434px;
-    height: 100%;
+    float: right;
+    margin-top: -121px;
+    position: inherit;
 }
 
-.button {
-    position: absolute;
-    top: 156px;
-}
 
-.button2 {
-    position: absolute;
-    top: 156px;
-    left: 665px;
-}
 
 .left {
     width: 15px;
@@ -418,23 +239,10 @@ a.mail {
 
 .div h2 {
     color: #676767;
-    position: absolute;
-    left: 46px;
-    top: 180px;
-}
-
-.bottom-bottom {
-    bottom: 327px;
-    position: absolute;
-    width: 330px;
 }
 
 
-.bottom-bottom2 {
-    bottom: 313px;
-    position: absolute;
-    width: 330px;
-}
+
 
 .erarka {
     width: 21px;
@@ -447,18 +255,6 @@ a.mail {
 
 .erarka:hover {
     background-position: -161px -31px;
-}
-
-.get {
-    position: absolute;
-    top: 260px;
-    left: 30px;
-}
-
-.button3 {
-    position: absolute;
-    top: 254px;
-    left: 190px;
 }
 
 .minus-10-vidstochiv {
@@ -474,30 +270,16 @@ a.mail {
     background-position: -72px -53px;
 }
 
-.futbolki p {
-    color: #676767;
-    position: absolute;
-    left: 40px;
-    top: 60px;
-}
 
 .div2 {
     padding: 11px;
     background: #fff;
-    position: absolute;
     border: 3px #0193e9 solid;
-    left: 1032px;
-    top: 351px;
     text-decoration: none;
     width: 223px;
     height: 89px;
 }
 
-.futbolka {
-    position: absolute;
-    top: 10px;
-    left: 150px;
-}
 
 .erarka2 {
     width: 21px;
@@ -516,10 +298,7 @@ a.mail {
 .div3 {
     padding: 11px;
     background: #fff;
-    position: absolute;
     border: 3px #0193e9 solid;
-    left: 1032px;
-    top: 475px;
     text-decoration: none;
     width: 223px;
     height: 89px;
@@ -528,24 +307,72 @@ a.mail {
 .div4 {
     padding: 11px;
     background: #fff;
-    position: absolute;
     border: 3px #0193e9 solid;
-    left: 1032px;
-    top: 599px;
     text-decoration: none;
     width: 223px;
     height: 89px;
 }
 
-.h2{
-    position: absolute;
-    top: 740px;
-    left: 440px;
+.pricing{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.pricing1 {
+    height: 390px;
+    width: 226px;
+    margin-top: 10px;
+}
+
+.pricing img {
+    width: 208px;
+    padding: 10px;
+}
+
+.pricing h2 {
+    text-align: center;
     color: #0193e9;
 }
 
-.sots-seti{
-    position: absolute;
-    top: 822px;
-    left: 560px;
+.pricing1:hover {
+    border: #0193e9 3px solid;
+    cursor: pointer;
+}
+
+.pricing1 p {
+    text-align: center;
+    color: #0193e9;
+
+}
+
+h4 {
+    text-align: center;
+    color: #32393d;
+}
+
+h3 {
+    color: #676767;
+    text-align: center;
+}
+
+.buy {
+    display: flex;
+    margin-right: 8px;
+    padding: 4px 15px;
+    border: none;
+    border-radius: 13px;
+    background-image: linear-gradient(0deg, #f6dd30 0%, #fbf071 100%);
+    height: 21px;
+    margin: auto;
+}
+
+.buy img {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+}
+
+.pricing1 a{
+    text-align: center;
 }
